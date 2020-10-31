@@ -1,0 +1,14 @@
+/* navigation bar */
+.nav-bar{
+    height: 500px;
+    width: 1000px;    
+}
+
+/* state departments */
+#state-dpt{
+    height: 100px;
+    width: 100px;
+    display: inline-grid;
+    grid-gap: 15px;
+    background-size: cover;
+}
