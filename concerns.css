@@ -1,0 +1,42 @@
+h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3, h4 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+}
+
+.services {
+    max-height: 20%;
+}
+
+#green {
+    border: 5px outset #94a84a;
+    background-color: #9cb380; 
+}
+
+
+#red {
+    border: 5px outset #af5e53;
+    background-color: #bd6d55; 
+}
+
+#information {
+    padding-left: 3%;
+    justify-content: left;
+    width: 75%;
+}
+
+img {
+    height: 200px;
+    float: right;
+    padding-right: 3%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

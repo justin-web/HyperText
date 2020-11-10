@@ -2,24 +2,80 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <script src="script.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="concerns.css">
     <title>Family Resource Directory - Concerns Page</title>
 </head>
 
 <body>
     <!-- navigation bar -->
 
-    <div>
-        <h2>Elderly Care Services on Oahu</h2>
-    </div>
+    <h2>Elderly Programs and Services on Oahu</h2>
 
-    <div>
-        <h3>Senior Medicare Patrol Hawaii (SMP Hawaii)</h3>
-        <p>A volunteer-based program to ensure Medicare is not billed for health care services, medical supplies, and equipment not received.</p>
-        <h4>Contact Information</h4>
-        <p>TEST</p>
+    <div class="services" id="green" onclick="window.open('https://health.hawaii.gov/eoa/home/family-caregiver-support-program/','mywindow');" style="cursor: pointer;">
+        <img src="images/doh.png" alt="Department of Health">
+        <div id="information">
+            <h3>Family Caregiver Support Program</h3>
+            <p>
+                A program provides caregiver support services to enable care recipients to remain in 
+                their familiar environment. These caregiver support services are available to adult family members, or other 
+                individuals who are informal, unpaid providers of in-home and community care to older adults age 60 and older.
+            </p>
+            <h4>Contact Information: </h4> 
+            <p>Cell - (808)768-7705 Website - www.elderlyaffairs.com</p>
+        </div>
     </div>
+    <br>
+
+    <div class="services" id="green" onclick="window.open('https://health.hawaii.gov/eoa/home/home-and-community-services/','mywindow');" style="cursor: pointer;">
+        <div id="image">
+            <img src="images/doh.png" alt="Department of Health">
+        </div>
+        <div id="information">
+            <h3>In-Home and Community-Based Services</h3>
+            <p>
+                Services to assist older adults in remaining independent and active. Types of services provided: 
+                adult day care, assisted transportation, attendant care, case management, chore services, congregate meals, home 
+                delivered meals, homemaker/housekeeper, information and assistance, legal assistance, nutrition education, personal 
+                care, and transportation. There are also support services available to family caregivers such as: information, assistance, 
+                individual counseling, support groups and training, respite, and supplemental services.
+            </p>
+            <h4>Contact Information: </h4> 
+            <p>Cell - (808)768-7705 Website - www.elderlyaffairs.com</p>
+        </div>
+    </div>
+    <br>
+
+    <h2>Early Childhood Care Programs and Services on Oahu</h2>
+
+    <div class="services" id="red" onclick="window.open('http://humanservices.hawaii.gov/blog/open-application-period-begins-january-2-2020-for-preschool-open-doors-program/','mywindow');" style="cursor: pointer;">
+        <img src="images/dhs.png" alt="Department of Health">
+        <div id="information">
+            <h3>Preschool Open Doors (POD)</h3>
+            <p>
+                Provides subsidies to eligible families sending their children to a licensed preschool during
+                the school year prior to kindergarten entry. Subsidy is used to assist with payments to
+                DHS licensed group child care homes or centers (i.e., preschools). The program has a time-limited application
+                period each year.
+            </p>
+            <h4>Contact Information: </h4> 
+            <p>Cell - (808)791-2130</p>
+        </div>
+    </div>
+    <br>
+
+    <div class="services" id="red" onclick="window.open('https://earlylearning.hawaii.gov/eoel-public-prekindergarten-program/','mywindow');" style="cursor: pointer;">
+        <img src="images/eoel.png" alt="Department of Health">
+        <div id="information">
+            <h3>Public Pre-Kindergarten</h3>
+            <p>
+                Provides high-quality early learning experiences for students in the year prior to kindergarten eligibility.
+                Child must be age 4 years on or before July 31 of the current school year.
+            </p>
+            <h4>Contact Information: </h4> 
+            <p>Cell - (808)784-5350</p>
+        </div>
+    </div>
+    <br>
 
 </body>
 </html>
