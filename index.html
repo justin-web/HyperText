@@ -8,18 +8,55 @@
 </head>
 
 <body>
-    <!-- navigation bar -->
-    <div class="nav-bar">
-        <div>Logo</div>
-        <button>Quiz</button>
-        <button>State Departments</button>
-        <button>About Us</button>
-    </div>
+  <ul>
+		<li><img src="images/logo.png" width="50" height="50"></li>
+		<li><a href="question.html">Questionaire</a></li>
+		<li><a href="state.html">State Departments</a></li>
+	</ul>
 
-    <!-- state department containers -->
-    <div class="sd-container">
-        <p id="state-dpt">Department of Education</p>
-        <p id="state-dpt">Department of Transportation</p>
-    </div>
+
+<div id="tittle2">Eligibility Questionaire</div>
+
+<div id="islandForm" class="form">
+    <form action="/action_page.php">
+      <label for="Island">Island:</label>
+      <select name="island" id="islandValue">
+        <option value="Hawai'i">Hawai'i</option>
+        <option value="Kaua'i">Kaua'i</option>
+        <option value="Lana'i">Lanai'</option>
+        <option value="Maui">Maui</option>
+        <option value="Moloka'i">Moloka'i</option>
+        <option value="Ni'ihau">Ni'ihau</option>
+        <option value="O'ahu">O'ahu</option>
+  </select>
+</div>
+
+<div id="genderForm" class="form">
+  <form action="/action_page.php">
+    <label for="Gender">Gender:</label>
+    <select name="Gender" id="genderValue">
+      <option value="Male">Male</option>
+      <option value="Female">Female</option>
+      <option value="Prefer">Prefer Not To Say</option>
+    </select>
+</div>
+
+<div id="Age" class="form">
+  <label for="Age">Age:</label>
+  <input type="number" id="ageForm" name="age">
+</div>
+
+<div class="form">
+  <form action="/action_page.php">
+    <label for="Concern">Concern:</label>
+    <select name="Concern" id="concernValue">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+    </select>
+</div>
+
+<button type="Submit" name="Submit" id="Submit">Submit</button>
+
 </body>
 </html>
