@@ -13,6 +13,7 @@ ul {
 
 li {
   float: left;
+  padding-left: 15px;
 }
 
 li a {
@@ -21,6 +22,9 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
 }
 
 li a:hover:not(.active) {
