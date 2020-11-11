@@ -26,6 +26,16 @@ p {
     background-color: #bd6d55; 
 }
 
+#blue {
+    border: 5px outset #4a73a8;
+    background-color: #5386af;  
+}
+
+#orange {
+    border: 5px outset #ce7918;
+    background-color: #ce8b3e;
+}
+
 #information {
     padding-left: 3%;
     justify-content: left;
