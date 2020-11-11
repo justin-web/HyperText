@@ -58,7 +58,11 @@ p {
 }
 #red {
   border: 5px outset #AF5E53;
-  background-color: #BD6D55;
+  background-color: #bd6d55;
+}
+#orange {
+    border: 5px outset #ce7918;
+    background-color: #ce8b3e;
 }
 #information {
   padding-left: 3%;
