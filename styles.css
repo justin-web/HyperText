@@ -45,6 +45,8 @@ ul {
   position: fixed;
   top: 0;
   width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
 }
 
 li {
@@ -65,4 +67,64 @@ li a:hover:not(.active) {
 
 .active {
   background-color: #4CAF50;
+}
+
+.questionBox {
+  width: 93%;
+  height: 163px;
+  background-color: #9CB380;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 40px;
+}
+
+.center {
+  margin: auto;
+  padding: 10px;
+}
+
+.Yes {
+  width: 40%;
+  height: 45px;
+  margin-left: 30%;
+}
+
+.No {
+  width: 40%;
+  height: 45px;
+  margin-left: 30%;
+}
+
+.islandAnswer {
+  width: 40%;
+  height: 28px;
+  margin-left: 30%;
+}
+
+.genderAnswer {
+  width: 40%;
+  height: 35px;
+  margin-left: 30%;
+}
+
+#Header {
+  width: 100%;
+  height: 70px;
+  background-color: #A44A3F;
+  margin-top: 54px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.questionSent {
+  text-align: center;
+  width: 39%;
+  height: 43px;
+  color: #ffffff;
+  background-color: #94A89A;
+  margin: auto;
+  padding: 10px;
+  font-size: 20px;
 }

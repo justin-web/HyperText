@@ -1,5 +1,5 @@
 function elderlyPage() {
-      window.location.href = "elderlyConcerns.html";
+      window.location.href = "speech.html";
 }
 
 function childhoodPage() {

@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <script src="script.js" type="text/javascript"></script>
     <title>Family Resource Directory - Home Page</title>
 </head>
@@ -14,40 +15,47 @@
 		<li><a href="state.html">State Departments</a></li>
 	</ul>
 
+<div id="Header">Directory Questionaire</div>
 
-<div id="tittle2">Eligibility Questionaire</div>
-
-<div id="islandForm" class="form">
-    <form action="/action_page.php">
-      <label for="Island">Island:</label>
-      <select name="island" id="islandValue">
-        <option value="Hawai'i">Hawai'i</option>
-        <option value="Kaua'i">Kaua'i</option>
-        <option value="Maui">Maui</option>
-        <option value="O'ahu">O'ahu</option>
-  </select>
-</div>
-
-<div id="genderForm" class="form">
-  <form action="/action_page.php">
-    <label for="Gender">Gender:</label>
-    <select name="Gender" id="genderValue">
-      <option value="Male">Male</option>
-      <option value="Female">Female</option>
-      <option value="Prefer">Prefer Not To Say</option>
-    </select>
-</div>
-
-<div id="Age" class="form">
-  <label for="Age">Age:</label>
-  <input type="number" id="ageForm" name="age">
-</div>
-
-<div id="concern">
-  <button onclick="elderlyPage">Elderly Assistant</button>
+<div id="island" class="questionBox center">
+  <div id="islandQuestion" class="questionSent">What area do you currently reside in?</div>
+  <button id="aHawai'i" class="islandAnswer" onclick="style.backgroundColor='#5386AF'"> City & County of Honolulu </button>
+  <button id="aKaua'i" class="islandAnswer" onclick="style.backgroundColor='#5386AF'"> County of Hawai'i </button>
   <br>
-  <button onclick="childhoodPage">Childhood Care</button>
+  <button id="aMaui" class="islandAnswer" onclick="style.backgroundColor='#5386AF'"> County of Maui </button>
+  <button id="aO'ahu" class="islandAnswer" onclick="style.backgroundColor='#5386AF'"> County of Kaua'i </button>
 </div>
+
+<div id="gender" class="questionBox center" >
+  <div id="genderQuestion" class="questionSent"> Gender: </div>
+  <button id="Male" class="genderAnswer" onclick="style.backgroundColor='#5386AF'"> Male </button>
+  <button id="Female" class="genderAnswer" onclick="style.backgroundColor='#5386AF'"> Female </button>
+  <br>
+  <button id="Not" class="genderAnswer" onclick="style.backgroundColor='#5386AF'"> Prefer Not To Say </button>
+</div>
+
+<div id="children" class="questionBox center">
+  <div id="childrenQuestion" class="questionSent"> Do you have a child? </div>
+  <button id="cYes" class="Yes center" onclick="style.backgroundColor='#5386AF'"> Yes </button>
+  <button id="cNo" class="No center" onclick="style.backgroundColor='#5386AF'"> No </button>
+</div>
+
+<div id="insurance" class="questionBox center">
+  <div id="insureQuestion" class="questionSent"> Do you have health insurance? </div>
+  <button id="iYes" class="Yes center" onclick="style.backgroundColor='#5386AF'"> Yes </button>
+  <button id="iNo" class="No center" onclick="style.backgroundColor='#5386AF'"> No </button>
+</div>
+
+<div id="employment" class="questionBox center">
+  <div id="employmentQuestion" class="questionSent"> Are you currently employed? </div>
+  <button id="eYes" class="Yes center" onclick="style.backgroundColor='#5386AF'"> Yes </button>
+  <button id="eNo" class="No center" onclick="style.backgroundColor='#5386AF'"> No </button>
+</div>
+
+<div id="concern" class="questionBox center">
+  <div id="concernQuestion" class="questionSent"> What is your concern? </div>
+  <a href="elderlyConcerns.html"><button id="elderly" class="Yes center" onclick="a href">Elderly Assistant</button></a>
+  <a href="childhoodConcerns.html"><button id="childhood" class="Yes center" onclick="style.backgroundColor='#5386AF'">Childhood Care</button>
 
 </body>
 </html>
