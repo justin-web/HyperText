@@ -1,0 +1,57 @@
+h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3, h4 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+}
+
+.services {
+    max-height: 20%;
+}
+
+#green {
+    border: 5px outset #94a84a;
+    background-color: #9cb380; 
+}
+
+
+#red {
+    border: 5px outset #af5e53;
+    background-color: #bd6d55; 
+}
+
+#blue {
+    border: 5px outset #4a73a8;
+    background-color: #5386af;  
+}
+
+#orange {
+    border: 5px outset #ce7918;
+    background-color: #ce8b3e;
+}
+
+#information {
+    padding-left: 3%;
+    padding-bottom: 10px;
+    justify-content: left;
+    width: 75%;
+}
+
+img {
+    height: 200px;
+    float: right;
+    padding-right: 3%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#img {
+  margin-right: -100px;
+}
